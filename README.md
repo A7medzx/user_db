@@ -1,7 +1,7 @@
 # User Management System
 
 This is a PHP-based user management system that provides functionality for user registration, login, profile management, and profile updates. The system features responsive design with a simple UI created using CSS. The backend uses MySQL for data storage and session handling for user authentication.
-
+---
 ## Features
 
 - **User Registration**: Allows users to create an account with a profile image.
@@ -9,7 +9,7 @@ This is a PHP-based user management system that provides functionality for user 
 - **Profile Management**: Users can view their profile details, update their information, and upload a new profile picture.
 - **Responsive Design**: A clean and mobile-friendly UI built with CSS and Google Fonts.
 - **Session Management**: Ensures secure user authentication and prevents unauthorized access.
-
+---
 ## Project Structure
 
 ```plaintext
@@ -25,13 +25,13 @@ project/
 ├── images/
 │   └── default-avatar.png  # Default profile image
 ```
-
+---
 ## Requirements
 
 - **Server**: PHP-enabled web server (XAMPP)
 - **Database**: MySQL
 - **Browser**: Modern web browser
-
+---
 ## Installation
 
 1. **Clone the Repository**:
@@ -63,7 +63,7 @@ project/
 4. **Run the Application**:
    - Start your PHP-enabled web server.
    - Open the application in your browser at `http://localhost/<project-folder>/`.
-
+---
 ## Usage
 
 1. **Register**:
@@ -78,18 +78,21 @@ project/
 
 4. **Logout**:
    - Use the logout button to end your session securely.
-
+---
 ## Security Features
 
 - Passwords are stored using MD5 encryption.
 - Session handling ensures secure user authentication.
 - Basic input validation to prevent SQL injection.
-
+---
 ## Acknowledgments
 
 - Google Fonts: [Poppins](https://fonts.google.com/)
 - Icons: [FontAwesome](https://fontawesome.com/)
+---
+## License
 
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 ---
 - **Author**: Ahmed M. Saad  
 - **Email**: [ahmedm.saad005@gmail.com](mailto:ahmedm.saad005@gmail.com)
